@@ -1,4 +1,4 @@
-# Log Anomaly Detector
+# Log Anomaly Detector (POC on ML,DL based on ADJECTI)
 
 A production-grade ML anomaly detection system built on real Django and Celery log data. Uses three independent machine learning models — a Keras binary classifier, a TensorFlow autoencoder, and a PyTorch LSTM — combined through an ensemble alert engine to detect anomalies in application logs with high confidence and minimal false alarms.
 
